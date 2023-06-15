@@ -1,0 +1,37 @@
+//global variables
+float lineX1, lineY1, lineWidth1, lineHeight1;
+float lineX2, lineY2, lineWidth2, lineHeight2;
+float lineX3, lineY3, lineWidth3, lineHeight3;
+float lineX4, lineY4, lineWidth4, lineHeight4;
+//
+void shapesSetup() {
+
+  lineX1 = displayWidth * 1/3;
+  lineY1 = displayHeight * 1/3;
+  lineWidth1 = displayWidth * 5/15;
+  lineHeight1 = displayHeight * 1/50;
+
+  lineX2 = displayWidth * 1/3;
+  lineY2 = displayHeight * 1.7/3;
+  lineWidth2 = displayWidth * 5/15;
+  lineHeight2 = displayHeight * 1/50;
+
+  lineX3 = displayWidth * 4.2/10;
+  lineY3 = displayHeight * 1.89/9;
+  lineWidth3 = displayWidth * 1/80;
+  lineHeight3 = displayHeight * 5/10;
+
+  lineX4 = displayWidth * 5.5/10;
+  lineY4 = displayHeight * 1.89/9;
+  lineWidth4 = displayWidth * 1/80;
+  lineHeight4 = displayHeight * 5/10;
+}
+//
+void shapesDraw() {
+  rect(lineX1, lineY1, lineWidth1, lineHeight1);
+  rect(lineX2, lineY2, lineWidth2, lineHeight2);
+  rect(lineX3, lineY3, lineWidth3, lineHeight3);
+  rect(lineX4, lineY4, lineWidth4, lineHeight4);
+}
+//
+//End Shapes
